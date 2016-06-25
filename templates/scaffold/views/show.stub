@@ -1,0 +1,18 @@
+@extends('sigesui::layouts.withsidebar')
+@section('pageTitle')
+    $MODEL_NAME$
+@endsection
+@section('styles')
+
+@endsection
+
+@section('content-header')
+    <h2><i class="fa fa-users"></i> Editar $MODEL_NAME$
+    <small>Ingresar aquí una descripción.</small></h2>
+@endsection
+
+@section('content')
+
+  @include('$MODULE_NAME_LOWER$::$VIEW_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.show_fields')
+  <a href="{!! route('$MODULE_NAME_LOWER$.$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="btn btn-default">Back</a>
+@endsection

@@ -1,0 +1,28 @@
+{
+    "name": "jjsoft/gentelella-templates",
+    "description": "Gentelella templates for JJSoft Laravel Generator",
+    "keywords": [
+        "jjsoft",
+        "laravel",
+        "generator",
+        "gentelella",
+        "templates",
+        "bootstrap"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "José C Gallo",
+            "email": "aguara_gazu@yahoo.com.ar"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JJSoft\\GentelellaTemplates\\": "src/"
+        }
+    }
+}
